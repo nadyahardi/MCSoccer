@@ -1,0 +1,16 @@
+# ROS 2 Ignored
+simulation/mcsoccer_ws/build/
+simulation/mcsoccer_ws/install/
+simulation/mcsoccer_ws/log/
+simulation/mcsoccer_ws/.colcon_ignore
+
+# ESP32 Ignored
+.pio/
+__pycache__/
+*.bin
+*.elf
+*.hex
+
+# System
+.DS_Store
+Thumbs.db
