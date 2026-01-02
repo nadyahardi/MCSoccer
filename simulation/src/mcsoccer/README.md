@@ -19,7 +19,7 @@
 ## Cloning the Repository
  ### Clone the repository
   ```bash
-  git clone 
+  git clone https://github.com/nadyahardi/MCSoccer.git
  ```
     
 Then pull the submodules with:
