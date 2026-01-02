@@ -1,9 +1,9 @@
 teleop_twist_joy_node:
   ros__parameters:
-    axis_linear: 1  # Stick Kiri (Maju/Mundur)
+    axis_linear: 1  
     scale_linear: 1.0
     scale_linear_turbo: 1.5
-    axis_angular: 3 # Stick Kanan (Kiri/Kanan)
+    axis_angular: 3 
     scale_angular: 1.0
     enable_button: 0 
-    require_enable_button: false # SUDAH DIMATIKAN (Langsung gerak)
+    require_enable_button: false 
