@@ -52,6 +52,7 @@ git pull --rebase
 2. Open second terminal for PS4 Controller
    connect PS4 Controller to laptop
   ```bash
+
   source install/setup.bash
   ros2 launch mcsoccer joystick.launch.py
   ```
@@ -65,4 +66,7 @@ git pull --rebase
   ```bash
   ros2 run rqt_robot_steering rqt_robot_steering
   ```
+
+Running a simulation with GUI slider
+<img width="1854" height="1160" alt="Screenshot from 2026-01-02 17-31-09" src="https://github.com/user-attachments/assets/7fbcc70c-7fc6-4cbc-8adc-e883d22973a4" />
 
