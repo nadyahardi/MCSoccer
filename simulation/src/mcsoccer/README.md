@@ -44,13 +44,25 @@ git pull --rebase
 
 ## Running the Simulation
 >simulation using Gazebo Harmonic (gz-sim)
-- open terminal 1 for running Gazebo and Rviz(Rviz in development)
+1. Open terminal for running Gazebo and Rviz(Rviz in development)
   ```bash
   ros2 launch mcsoccer sim.launch.py
   ```
 
-- Open second terminal for PS4 Controller
+2. Open second terminal for PS4 Controller
+   connect PS4 Controller to laptop
   ```bash
   source install/setup.bash
   ros2 launch mcsoccer joystick.launch.py
   ```
+
+ 3. [Optional] Using slider GUI (control without joystick)
+  Install the package
+  ```bash
+  sudo apt install ros-jazzy-rqt-robot-steering
+  ```
+  Run 
+  ```bash
+  ros2 run rqt_robot_steering rqt_robot_steering
+  ```
+
