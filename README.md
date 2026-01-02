@@ -11,7 +11,7 @@ This repository contains arduino code for the robot's esp and simulation using G
 │
 └── simulation/          
     └── src/
-        └── mcsoccer/        # Paket utama ROS 2
+        └── mcsoccer/        
             ├── config/      # Joystick & RViz configuration
             ├── description/ # URDF
             └── launch/   
